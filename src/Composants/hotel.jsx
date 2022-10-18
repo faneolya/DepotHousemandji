@@ -2,6 +2,7 @@ import React from 'react';
 import Hotel from './img/Hotel.jpg';
 import Stars from './img/Stars.png';
 import Chercher from './img/Chercher.png';
+import "./Hotel.css"
 
 
 export default function () {
@@ -18,20 +19,20 @@ export default function () {
     <div className='smallbox' >
         <img src={Hotel} alt="Hotel" />
         <div className='boxspan'>
-            <span>Merdien Mandji</span> <br />
-            <span>Bord de Mer face a Beac</span>
+            <span className='texte'>Meridien Mandji</span> <br />
+            <span className='texte'>Bord de Mer face a Beac</span>
          <img className='stars' src= {Stars} alt="" />
-         <span>301 avis</span>
+         <span className='texte'>301 avis</span>
         </div>
     </div>
 
     <div className='smallbox' >
         <img src={Hotel} alt="Hotel" />
         <div className='boxspan'>
-            <span>Merdien Mandji</span> <br />
-            <span>Bord de Mer face a Beac</span>
+            <span className='texte'>Merdien Mandji</span> <br />
+            <span className='texte'>Bord de Mer face a Beac</span>
             <img className='stars' src= {Stars} alt="" />
-            <span>93 avis</span>
+            <span className='texte'>93 avis</span>
 
 
         </div>
@@ -40,10 +41,10 @@ export default function () {
     <div className='smallbox' >
         <img src={Hotel} alt="Hotel" />
         <div className='boxspan'>
-            <span>Merdien Mandji</span> <br />
-            <span>Bord de Mer face a Beac</span>
+            <span className='texte'>Merdien Mandji</span> <br />
+            <span className='texte'>Bord de Mer face a Beac</span>
             <img className='stars' src= {Stars} alt="" />
-            <span>501 avis</span>
+            <span className='texte'>501 avis</span>
 
 
         </div>
@@ -52,10 +53,10 @@ export default function () {
     <div className='smallbox' >
         <img src={Hotel} alt="Hotel" />
         <div className='boxspan'>
-            <span>Merdien Mandji</span> <br />
-            <span>Bord de Mer face a Beac</span>
+            <span className='texte'>Merdien Mandji</span> <br />
+            <span className='texte'>Bord de Mer face a Beac</span>
             <img className='stars' src= {Stars} alt="" />
-            <span>301 avis</span>
+            <span className='texte'>301 avis</span>
 
 
         </div>
@@ -63,10 +64,10 @@ export default function () {
     <div className='smallbox' >
         <img src={Hotel} alt="Hotel" />
         <div className='boxspan'>
-            <span>Merdien Mandji</span> <br />
-            <span>Bord de Mer face a Beac</span>
+            <span className='texte'>Merdien Mandji</span> <br />
+            <span className='texte'>Bord de Mer face a Beac</span>
             <img className='stars' src= {Stars} alt="" />
-            <span>301 avis</span>
+            <span className='texte'>301 avis</span>
 
 
         </div>
@@ -74,11 +75,11 @@ export default function () {
 
     <div className='smallbox' >
         <img src={Hotel} alt="Hotel" />
-        <div className='boxspan'>
-            <span>Merdien Mandji</span> <br />
-            <span>Bord de Mer face a Beac</span>
+        <div className='box-span'>
+            <span className='texte'>Merdien Mandji</span> <br />
+            <span className='texte'>Bord de Mer face a Beac</span>
             <img className='stars' src= {Stars} alt="" />
-            <span>301 avis</span>
+            <span className='texte'>301 avis</span>
 
 
         </div>

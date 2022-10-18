@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Hotel from './Composants/hotel';
 import Calendar from './Composants/Calendar'
