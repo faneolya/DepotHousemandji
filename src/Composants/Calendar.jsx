@@ -11,7 +11,7 @@ export default function Calendrier() {
     <div className='top'>
     <div className=''>
       <input type="date" name="entrée" id="" placeholder='Date d'arrivée />
-      <input type="date" name="entrée" id="" placeholder='Date d'arrivée />
+      <input type="date" name="départ" id="" placeholder='Date d'arrivée />
     </div> 
     </div>
     <div className='mere2'>
