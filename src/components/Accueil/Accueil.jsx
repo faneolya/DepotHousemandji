@@ -1,6 +1,6 @@
 import React from "react"
+import Capture from "./Capture.PNG";
 import "./Accueil.css";
-import { Button } from "@mui/material";
 
 
 
@@ -8,7 +8,7 @@ export const Accueil = () => {
   return (
     <div >
       <div className="accueil">
-
+        <img className="logo" src={Capture} alt="" />
       </div>
       <div className="h2">
         <h2>HOUSE MANDJI</h2>
@@ -16,7 +16,7 @@ export const Accueil = () => {
       <div className="h3">
         Sentez-vous comme chez vous!!!
       </div> <br></br>
-      <button className='mar3'>Explorons</button>
+      <button className='exp'>Explorons</button>
     </div>
 
 

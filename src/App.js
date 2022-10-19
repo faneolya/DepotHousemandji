@@ -12,21 +12,14 @@ import {Routes, Route} from "react-router-dom";
 function App() {
   return (
     <div> <Routes>
-      <Route path='/' element ={<Hotel/>}/>
-      <Route path='/calendar' element ={<Calendar/>}/>
-      <Route path='/paiement' element ={<Paiement/>}/>
-      <Route path='/Choishotel' element={<Choishotel/>}/>
-      <Route path='/Paiement2' element={<Paiement2/>}/>
-      <Route path='/Acceuil' element={<Acceuil/>}/>
+      <Route path='/' element ={<Acceuil/>}/>
+      <Route path='/hotel' element ={<Hotel/>}/>
+      <Route path='/Choishotel' element ={<Choishotel/>}/>
       <Route path='/Chambres' element={<Chambres/>}/>
-
-
-
-      
-      
-
-    </Routes>
-    
+      <Route path='/Calendar' element={<Calendar/>}/>
+      <Route path='/Paiement' element={<Paiement/>}/>
+      <Route path='/Paiement2' element={<Paiement2/>}/>
+    </Routes>  
     </div>
   );
 }

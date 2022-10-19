@@ -1,18 +1,17 @@
 
-import React, { useState } from 'react';
-import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
-import "./Calendar.css"
+import React from 'react';
+import "./Calendar.css";
+
 
 
 export default function Calendrier() {
-  const [value, onChange] = useState(new Date());
 
   return (
     <div className='mere'>
     <div className='top'>
     <div className=''>
-      <Calendar onChange={onChange} value={value} className='calendrier ' />
+      <input type="date" name="entrée" id="" placeholder='Date d'arrivée />
+      <input type="date" name="entrée" id="" placeholder='Date d'arrivée />
     </div> 
     </div>
     <div className='mere2'>
